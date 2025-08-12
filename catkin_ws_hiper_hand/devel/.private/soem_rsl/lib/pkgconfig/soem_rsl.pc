@@ -1,0 +1,8 @@
+prefix=/home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl
+
+Name: soem_rsl
+Description: Description of soem_rsl
+Version: 1.6.0
+Cflags: -I/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl -I/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl -I/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal -I/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux -I/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/oshw/linux
+Libs: -L${prefix}/lib -lsoem_rsl
+Requires: 

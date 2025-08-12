@@ -1,0 +1,8 @@
+prefix=/home/zrene/catkin_ws_hiper_hand/install
+
+Name: soem_interface_examples
+Description: Description of soem_interface_examples
+Version: 0.4.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsoem_interface_examples
+Requires: message_logger soem_rsl soem_interface_rsl

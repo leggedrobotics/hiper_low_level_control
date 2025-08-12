@@ -1,0 +1,1267 @@
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:49:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_BEGIN[m[K’ does not name a type
+   49 | [01;31m[KPACKED_BEGIN[m[K
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:49:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_BEGIN[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:24:[m[K [01;36m[Knote: [m[Kit was later defined here
+   24 | #define PACKED_BEGIN
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:61:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_fmmut[m[K’ does not name a type
+   61 | } [01;31m[Kec_fmmut[m[K;
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:62:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+   62 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:62:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_smt[m[K’ does not name a type
+   70 | } [01;31m[Kec_smt[m[K;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:71:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+   71 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:71:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:78:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_state_status[m[K’ does not name a type
+   78 | } [01;31m[Kec_state_status[m[K;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:79:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+   79 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:79:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:102:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  102 |   [01;31m[Kuint16[m[K state;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:104:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  104 |   [01;31m[Kuint16[m[K ALstatuscode;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:106:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  106 |   [01;31m[Kuint16[m[K configadr;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:108:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  108 |   [01;31m[Kuint16[m[K aliasadr;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:110:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  110 |   [01;31m[Kuint32[m[K eep_man;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:112:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  112 |   [01;31m[Kuint32[m[K eep_id;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:114:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  114 |   [01;31m[Kuint32[m[K eep_rev;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:116:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  116 |   [01;31m[Kuint16[m[K Itype;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:118:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  118 |   [01;31m[Kuint16[m[K Dtype;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:120:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  120 |   [01;31m[Kuint16[m[K Obits;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:122:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  122 |   [01;31m[Kuint32[m[K Obytes;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:124:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  124 |   [01;31m[Kuint8[m[K* outputs;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:126:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  126 |   [01;31m[Kuint8[m[K Ostartbit;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:128:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  128 |   [01;31m[Kuint16[m[K Ibits;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:130:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  130 |   [01;31m[Kuint32[m[K Ibytes;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:132:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  132 |   [01;31m[Kuint8[m[K* inputs;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:134:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  134 |   [01;31m[Kuint8[m[K Istartbit;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:136:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_smt[m[K’ does not name a type
+  136 |   [01;31m[Kec_smt[m[K SM[EC_MAXSM];
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:138:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  138 |   [01;31m[Kuint8[m[K SMtype[EC_MAXSM];
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:140:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_fmmut[m[K’ does not name a type
+  140 |   [01;31m[Kec_fmmut[m[K FMMU[EC_MAXFMMU];
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:142:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  142 |   [01;31m[Kuint8[m[K FMMU0func;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:144:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  144 |   [01;31m[Kuint8[m[K FMMU1func;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:146:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  146 |   [01;31m[Kuint8[m[K FMMU2func;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:148:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  148 |   [01;31m[Kuint8[m[K FMMU3func;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:150:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  150 |   [01;31m[Kuint16[m[K mbx_l;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:152:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  152 |   [01;31m[Kuint16[m[K mbx_wo;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:154:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  154 |   [01;31m[Kuint16[m[K mbx_rl;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:156:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  156 |   [01;31m[Kuint16[m[K mbx_ro;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:158:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  158 |   [01;31m[Kuint16[m[K mbx_proto;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:160:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  160 |   [01;31m[Kuint8[m[K mbx_cnt;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:162:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ does not name a type; did you mean ‘[01m[Kbool[m[K’?
+  162 |   [01;31m[Kboolean[m[K hasdc;
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kbool[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:164:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  164 |   [01;31m[Kuint8[m[K ptype;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:166:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  166 |   [01;31m[Kuint8[m[K topology;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:168:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  168 |   [01;31m[Kuint8[m[K activeports;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  170 |   [01;31m[Kuint8[m[K consumedports;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:172:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  172 |   [01;31m[Kuint16[m[K parent;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:174:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  174 |   [01;31m[Kuint8[m[K parentport;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:176:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  176 |   [01;31m[Kuint8[m[K entryport;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:178:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  178 |   [01;31m[Kint32[m[K DCrtA;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:180:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  180 |   [01;31m[Kint32[m[K DCrtB;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:182:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  182 |   [01;31m[Kint32[m[K DCrtC;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:184:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  184 |   [01;31m[Kint32[m[K DCrtD;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:186:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  186 |   [01;31m[Kint32[m[K pdelay;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:188:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  188 |   [01;31m[Kuint16[m[K DCnext;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:190:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  190 |   [01;31m[Kuint16[m[K DCprevious;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:192:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  192 |   [01;31m[Kint32[m[K DCcycle;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:194:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  194 |   [01;31m[Kint32[m[K DCshift;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:196:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  196 |   [01;31m[Kuint8[m[K DCactive;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:198:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  198 |   [01;31m[Kuint16[m[K configindex;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:200:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  200 |   [01;31m[Kuint16[m[K SIIindex;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:202:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  202 |   [01;31m[Kuint8[m[K eep_8byte;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:204:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  204 |   [01;31m[Kuint8[m[K eep_pdi;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:206:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  206 |   [01;31m[Kuint8[m[K CoEdetails;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:208:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  208 |   [01;31m[Kuint8[m[K FoEdetails;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:210:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  210 |   [01;31m[Kuint8[m[K EoEdetails;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:212:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  212 |   [01;31m[Kuint8[m[K SoEdetails;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:214:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint16[m[K’ does not name a type; did you mean ‘[01m[Kint16_t[m[K’?
+  214 |   [01;31m[Kint16[m[K Ebuscurrent;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kint16_t[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:216:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  216 |   [01;31m[Kuint8[m[K blockLRW;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:218:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  218 |   [01;31m[Kuint8[m[K group;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:220:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  220 |   [01;31m[Kuint8[m[K FMMUunused;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:222:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ does not name a type; did you mean ‘[01m[Kbool[m[K’?
+  222 |   [01;31m[Kboolean[m[K islost;
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kbool[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:224:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ has not been declared
+  224 |   int (*PO2SOconfig)([01;31m[Kuint16[m[K slave);
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:226:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ has not been declared
+  226 |   int (*PO2SOconfigx)([01;31m[Kecx_contextt[m[K* context, uint16 slave);
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:226:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ has not been declared
+  226 |   int (*PO2SOconfigx)(ecx_contextt* context, [01;31m[Kuint16[m[K slave);
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:234:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  234 |   [01;31m[Kuint32[m[K logstartaddr;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:236:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  236 |   [01;31m[Kuint32[m[K Obytes;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:238:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  238 |   [01;31m[Kuint8[m[K* outputs;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:240:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  240 |   [01;31m[Kuint32[m[K Ibytes;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:242:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  242 |   [01;31m[Kuint8[m[K* inputs;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:244:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ does not name a type; did you mean ‘[01m[Kbool[m[K’?
+  244 |   [01;31m[Kboolean[m[K hasdc;
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kbool[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:246:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  246 |   [01;31m[Kuint16[m[K DCnext;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:248:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint16[m[K’ does not name a type; did you mean ‘[01m[Kint16_t[m[K’?
+  248 |   [01;31m[Kint16[m[K Ebuscurrent;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kint16_t[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:250:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  250 |   [01;31m[Kuint8[m[K blockLRW;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:252:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  252 |   [01;31m[Kuint16[m[K nsegments;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:254:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  254 |   [01;31m[Kuint16[m[K Isegment;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:256:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  256 |   [01;31m[Kuint16[m[K Ioffset;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:258:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  258 |   [01;31m[Kuint16[m[K outputsWKC;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:260:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  260 |   [01;31m[Kuint16[m[K inputsWKC;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:262:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ does not name a type; did you mean ‘[01m[Kbool[m[K’?
+  262 |   [01;31m[Kboolean[m[K docheckstate;
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kbool[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:264:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  264 |   [01;31m[Kuint32[m[K IOsegment[EC_MAXIOSEGMENTS];
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:269:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  269 |   [01;31m[Kuint16[m[K Startpos;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:270:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  270 |   [01;31m[Kuint8[m[K nFMMU;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:271:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  271 |   [01;31m[Kuint8[m[K FMMU0;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:272:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  272 |   [01;31m[Kuint8[m[K FMMU1;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:273:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  273 |   [01;31m[Kuint8[m[K FMMU2;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:274:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  274 |   [01;31m[Kuint8[m[K FMMU3;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:279:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  279 |   [01;31m[Kuint16[m[K Startpos;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:280:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  280 |   [01;31m[Kuint8[m[K nSM;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:281:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  281 |   [01;31m[Kuint16[m[K PhStart;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:282:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  282 |   [01;31m[Kuint16[m[K Plength;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:283:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  283 |   [01;31m[Kuint8[m[K Creg;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:284:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  284 |   [01;31m[Kuint8[m[K Sreg; /* don't care */
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:285:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  285 |   [01;31m[Kuint8[m[K Activate;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:286:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  286 |   [01;31m[Kuint8[m[K PDIctrl; /* don't care */
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:291:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  291 |   [01;31m[Kuint16[m[K Startpos;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:292:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  292 |   [01;31m[Kuint16[m[K Length;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:293:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  293 |   [01;31m[Kuint16[m[K nPDO;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:294:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  294 |   [01;31m[Kuint16[m[K Index[EC_MAXEEPDO];
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:295:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  295 |   [01;31m[Kuint16[m[K SyncM[EC_MAXEEPDO];
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:296:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  296 |   [01;31m[Kuint16[m[K BitSize[EC_MAXEEPDO];
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:297:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  297 |   [01;31m[Kuint16[m[K SMbitsize[EC_MAXSM];
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:301:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  301 | typedef [01;31m[Kuint8[m[K ec_mbxbuft[EC_MAXMBX + 1];
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:304:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_BEGIN[m[K’ does not name a type
+  304 | [01;31m[KPACKED_BEGIN[m[K
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:304:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_BEGIN[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:24:[m[K [01;36m[Knote: [m[Kit was later defined here
+   24 | #define PACKED_BEGIN
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:310:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_mbxheadert[m[K’ does not name a type
+  310 | } [01;31m[Kec_mbxheadert[m[K;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:311:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+  311 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:311:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:319:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_alstatust[m[K’ does not name a type
+  319 | } [01;31m[Kec_alstatust[m[K;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:320:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+  320 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:320:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:330:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_idxstackT[m[K’ does not name a type
+  330 | } [01;31m[Kec_idxstackT[m[K;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:334:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint16[m[K’ does not name a type; did you mean ‘[01m[Kint16_t[m[K’?
+  334 |   [01;31m[Kint16[m[K head;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kint16_t[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:335:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kint16[m[K’ does not name a type; did you mean ‘[01m[Kint16_t[m[K’?
+  335 |   [01;31m[Kint16[m[K tail;
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kint16_t[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:336:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_errort[m[K’ does not name a type
+  336 |   [01;31m[Kec_errort[m[K Error[EC_MAXELIST + 1];
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:340:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_BEGIN[m[K’ does not name a type
+  340 | [01;31m[KPACKED_BEGIN[m[K
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:340:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_BEGIN[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:24:[m[K [01;36m[Knote: [m[Kit was later defined here
+   24 | #define PACKED_BEGIN
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:345:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_SMcommtypet[m[K’ does not name a type
+  345 | } [01;31m[Kec_SMcommtypet[m[K;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:346:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+  346 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:346:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:354:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_PDOassignt[m[K’ does not name a type
+  354 | } [01;31m[Kec_PDOassignt[m[K;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:355:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+  355 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:355:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:363:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_PDOdesct[m[K’ does not name a type
+  363 | } [01;31m[Kec_PDOdesct[m[K;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:364:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPACKED_END[m[K’ does not name a type
+  364 | [01;31m[KPACKED_END[m[K
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:364:1:[m[K [01;36m[Knote: [m[Kthe macro ‘[01m[KPACKED_END[m[K’ had not yet been defined
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/osal.h:14[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercattype.h:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:26[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/osal/linux/osal_defs.h:26:[m[K [01;36m[Knote: [m[Kit was later defined here
+   26 | #define PACKED_END
+      | 
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:465:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  465 | [01;31m[Kuint8[m[K ec_nextmbxcnt(uint8 cnt);
+      | [01;31m[K^~~~~[m[K
+      | [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:466:18:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kec_clearmbx[m[K’ declared void
+  466 | void ec_clearmbx([01;31m[Kec_mbxbuft[m[K* Mbx);
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:466:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_mbxbuft[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:466:30:[m[K [01;31m[Kerror: [m[K‘[01m[KMbx[m[K’ was not declared in this scope
+  466 | void ec_clearmbx(ec_mbxbuft* [01;31m[KMbx[m[K);
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:467:20:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kecx_pusherror[m[K’ declared void
+  467 | void ecx_pusherror([01;31m[Kecx_contextt[m[K* context, const ec_errort* Ec);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:467:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:467:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  467 | void ecx_pusherror(ecx_contextt* [01;31m[Kcontext[m[K, const ec_errort* Ec);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:467:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  467 | void ecx_pusherror(ecx_contextt* context, [01;31m[Kconst[m[K ec_errort* Ec);
+      |                                           [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:468:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ does not name a type; did you mean ‘[01m[Kbool[m[K’?
+  468 | [01;31m[Kboolean[m[K ecx_poperror(ecx_contextt* context, ec_errort* Ec);
+      | [01;31m[K^~~~~~~[m[K
+      | [32m[Kbool[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:469:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kboolean[m[K’ does not name a type; did you mean ‘[01m[Kbool[m[K’?
+  469 | [01;31m[Kboolean[m[K ecx_iserror(ecx_contextt* context);
+      | [01;31m[K^~~~~~~[m[K
+      | [32m[Kbool[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:470:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kecx_packeterror[m[K’ declared void
+  470 | void ecx_packeterror([01;31m[Kecx_contextt[m[K* context, uint16 Slave, uint16 Index, uint8 SubIdx, uint16 ErrorCode);
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:470:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:470:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  470 | void ecx_packeterror(ecx_contextt* [01;31m[Kcontext[m[K, uint16 Slave, uint16 Index, uint8 SubIdx, uint16 ErrorCode);
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:470:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  470 | void ecx_packeterror(ecx_contextt* context, [01;31m[Kuint16[m[K Slave, uint16 Index, uint8 SubIdx, uint16 ErrorCode);
+      |                                             [01;31m[K^~~~~~[m[K
+      |                                             [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:470:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  470 | void ecx_packeterror(ecx_contextt* context, uint16 Slave, [01;31m[Kuint16[m[K Index, uint8 SubIdx, uint16 ErrorCode);
+      |                                                           [01;31m[K^~~~~~[m[K
+      |                                                           [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:470:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  470 | void ecx_packeterror(ecx_contextt* context, uint16 Slave, uint16 Index, [01;31m[Kuint8[m[K SubIdx, uint16 ErrorCode);
+      |                                                                         [01;31m[K^~~~~[m[K
+      |                                                                         [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:470:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  470 | void ecx_packeterror(ecx_contextt* context, uint16 Slave, uint16 Index, uint8 SubIdx, [01;31m[Kuint16[m[K ErrorCode);
+      |                                                                                       [01;31m[K^~~~~~[m[K
+      |                                                                                       [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:471:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  471 | int ecx_init([01;31m[Kecx_contextt[m[K* context, const char* ifname);
+      |              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:471:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  471 | int ecx_init(ecx_contextt* [01;31m[Kcontext[m[K, const char* ifname);
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:471:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  471 | int ecx_init(ecx_contextt* context, [01;31m[Kconst[m[K char* ifname);
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:471:55:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  471 | int ecx_init(ecx_contextt* context, const char* ifname[01;31m[K)[m[K;
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:472:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  472 | int ecx_init_redundant([01;31m[Kecx_contextt[m[K* context, ecx_redportt* redport, const char* ifname, char* if2name);
+      |                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:472:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  472 | int ecx_init_redundant(ecx_contextt* [01;31m[Kcontext[m[K, ecx_redportt* redport, const char* ifname, char* if2name);
+      |                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:472:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_redportt[m[K’ was not declared in this scope
+  472 | int ecx_init_redundant(ecx_contextt* context, [01;31m[Kecx_redportt[m[K* redport, const char* ifname, char* if2name);
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:472:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kredport[m[K’ was not declared in this scope
+  472 | int ecx_init_redundant(ecx_contextt* context, ecx_redportt* [01;31m[Kredport[m[K, const char* ifname, char* if2name);
+      |                                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:472:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  472 | int ecx_init_redundant(ecx_contextt* context, ecx_redportt* redport, [01;31m[Kconst[m[K char* ifname, char* if2name);
+      |                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:472:90:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+  472 | int ecx_init_redundant(ecx_contextt* context, ecx_redportt* redport, const char* ifname, [01;31m[Kchar[m[K* if2name);
+      |                                                                                          [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:472:103:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  472 | int ecx_init_redundant(ecx_contextt* context, ecx_redportt* redport, const char* ifname, char* if2name[01;31m[K)[m[K;
+      |                                                                                                       [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:473:16:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kecx_close[m[K’ declared void
+  473 | void ecx_close([01;31m[Kecx_contextt[m[K* context);
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:473:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:473:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  473 | void ecx_close(ecx_contextt* [01;31m[Kcontext[m[K);
+      |                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:474:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  474 | [01;31m[Kuint8[m[K ecx_siigetbyte(ecx_contextt* context, uint16 slave, uint16 address);
+      | [01;31m[K^~~~~[m[K
+      | [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:475:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kint16[m[K’ does not name a type; did you mean ‘[01m[Kint16_t[m[K’?
+  475 | [01;31m[Kint16[m[K ecx_siifind(ecx_contextt* context, uint16 slave, uint16 cat);
+      | [01;31m[K^~~~~[m[K
+      | [32m[Kint16_t[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:476:20:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kecx_siistring[m[K’ declared void
+  476 | void ecx_siistring([01;31m[Kecx_contextt[m[K* context, char* str, uint16 slave, uint16 Sn);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:476:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:476:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  476 | void ecx_siistring(ecx_contextt* [01;31m[Kcontext[m[K, char* str, uint16 slave, uint16 Sn);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:476:43:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+  476 | void ecx_siistring(ecx_contextt* context, [01;31m[Kchar[m[K* str, uint16 slave, uint16 Sn);
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:476:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  476 | void ecx_siistring(ecx_contextt* context, char* str, [01;31m[Kuint16[m[K slave, uint16 Sn);
+      |                                                      [01;31m[K^~~~~~[m[K
+      |                                                      [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:476:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  476 | void ecx_siistring(ecx_contextt* context, char* str, uint16 slave, [01;31m[Kuint16[m[K Sn);
+      |                                                                    [01;31m[K^~~~~~[m[K
+      |                                                                    [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:477:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  477 | [01;31m[Kuint16[m[K ecx_siiFMMU(ecx_contextt* context, uint16 slave, ec_eepromFMMUt* FMMU);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:478:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  478 | [01;31m[Kuint16[m[K ecx_siiSM(ecx_contextt* context, uint16 slave, ec_eepromSMt* SM);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:479:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  479 | [01;31m[Kuint16[m[K ecx_siiSMnext(ecx_contextt* context, uint16 slave, ec_eepromSMt* SM, uint16 n);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:480:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  480 | int ecx_siiPDO([01;31m[Kecx_contextt[m[K* context, uint16 slave, ec_eepromPDOt* PDO, uint8 t);
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:480:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  480 | int ecx_siiPDO(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave, ec_eepromPDOt* PDO, uint8 t);
+      |                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:480:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  480 | int ecx_siiPDO(ecx_contextt* context, [01;31m[Kuint16[m[K slave, ec_eepromPDOt* PDO, uint8 t);
+      |                                       [01;31m[K^~~~~~[m[K
+      |                                       [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:480:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+  480 | int ecx_siiPDO(ecx_contextt* context, uint16 slave, ec_eepromPDOt[01;31m[K*[m[K PDO, uint8 t);
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:480:68:[m[K [01;31m[Kerror: [m[K‘[01m[KPDO[m[K’ was not declared in this scope
+  480 | int ecx_siiPDO(ecx_contextt* context, uint16 slave, ec_eepromPDOt* [01;31m[KPDO[m[K, uint8 t);
+      |                                                                    [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:480:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  480 | int ecx_siiPDO(ecx_contextt* context, uint16 slave, ec_eepromPDOt* PDO, [01;31m[Kuint8[m[K t);
+      |                                                                         [01;31m[K^~~~~[m[K
+      |                                                                         [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:480:80:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  480 | int ecx_siiPDO(ecx_contextt* context, uint16 slave, ec_eepromPDOt* PDO, uint8 t[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:481:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  481 | int ecx_readstate([01;31m[Kecx_contextt[m[K* context);
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:481:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  481 | int ecx_readstate(ecx_contextt* [01;31m[Kcontext[m[K);
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:482:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  482 | int ecx_writestate([01;31m[Kecx_contextt[m[K* context, uint16 slave);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:482:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  482 | int ecx_writestate(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:482:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  482 | int ecx_writestate(ecx_contextt* context, [01;31m[Kuint16[m[K slave);
+      |                                           [01;31m[K^~~~~~[m[K
+      |                                           [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:482:55:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  482 | int ecx_writestate(ecx_contextt* context, uint16 slave[01;31m[K)[m[K;
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:483:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ does not name a type; did you mean ‘[01m[Kuint[m[K’?
+  483 | [01;31m[Kuint16[m[K ecx_statecheck(ecx_contextt* context, uint16 slave, uint16 reqstate, int timeout);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:484:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  484 | int ecx_mbxempty([01;31m[Kecx_contextt[m[K* context, uint16 slave, int timeout);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:484:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  484 | int ecx_mbxempty(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave, int timeout);
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:484:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  484 | int ecx_mbxempty(ecx_contextt* context, [01;31m[Kuint16[m[K slave, int timeout);
+      |                                         [01;31m[K^~~~~~[m[K
+      |                                         [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:484:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  484 | int ecx_mbxempty(ecx_contextt* context, uint16 slave, [01;31m[Kint[m[K timeout);
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:484:66:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  484 | int ecx_mbxempty(ecx_contextt* context, uint16 slave, int timeout[01;31m[K)[m[K;
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:485:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  485 | int ecx_mbxsend([01;31m[Kecx_contextt[m[K* context, uint16 slave, ec_mbxbuft* mbx, int timeout);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:485:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  485 | int ecx_mbxsend(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave, ec_mbxbuft* mbx, int timeout);
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:485:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  485 | int ecx_mbxsend(ecx_contextt* context, [01;31m[Kuint16[m[K slave, ec_mbxbuft* mbx, int timeout);
+      |                                        [01;31m[K^~~~~~[m[K
+      |                                        [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:485:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_mbxbuft[m[K’ was not declared in this scope
+  485 | int ecx_mbxsend(ecx_contextt* context, uint16 slave, [01;31m[Kec_mbxbuft[m[K* mbx, int timeout);
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:485:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kmbx[m[K’ was not declared in this scope
+  485 | int ecx_mbxsend(ecx_contextt* context, uint16 slave, ec_mbxbuft* [01;31m[Kmbx[m[K, int timeout);
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:485:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  485 | int ecx_mbxsend(ecx_contextt* context, uint16 slave, ec_mbxbuft* mbx, [01;31m[Kint[m[K timeout);
+      |                                                                       [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:485:82:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  485 | int ecx_mbxsend(ecx_contextt* context, uint16 slave, ec_mbxbuft* mbx, int timeout[01;31m[K)[m[K;
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:486:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  486 | int ecx_mbxreceive([01;31m[Kecx_contextt[m[K* context, uint16 slave, ec_mbxbuft* mbx, int timeout);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:486:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  486 | int ecx_mbxreceive(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave, ec_mbxbuft* mbx, int timeout);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:486:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  486 | int ecx_mbxreceive(ecx_contextt* context, [01;31m[Kuint16[m[K slave, ec_mbxbuft* mbx, int timeout);
+      |                                           [01;31m[K^~~~~~[m[K
+      |                                           [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:486:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kec_mbxbuft[m[K’ was not declared in this scope
+  486 | int ecx_mbxreceive(ecx_contextt* context, uint16 slave, [01;31m[Kec_mbxbuft[m[K* mbx, int timeout);
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:486:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmbx[m[K’ was not declared in this scope
+  486 | int ecx_mbxreceive(ecx_contextt* context, uint16 slave, ec_mbxbuft* [01;31m[Kmbx[m[K, int timeout);
+      |                                                                     [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:486:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  486 | int ecx_mbxreceive(ecx_contextt* context, uint16 slave, ec_mbxbuft* mbx, [01;31m[Kint[m[K timeout);
+      |                                                                          [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:486:85:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  486 | int ecx_mbxreceive(ecx_contextt* context, uint16 slave, ec_mbxbuft* mbx, int timeout[01;31m[K)[m[K;
+      |                                                                                     [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:487:18:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kecx_esidump[m[K’ declared void
+  487 | void ecx_esidump([01;31m[Kecx_contextt[m[K* context, uint16 slave, uint8* esibuf);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:487:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:487:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  487 | void ecx_esidump(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave, uint8* esibuf);
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:487:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  487 | void ecx_esidump(ecx_contextt* context, [01;31m[Kuint16[m[K slave, uint8* esibuf);
+      |                                         [01;31m[K^~~~~~[m[K
+      |                                         [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:487:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  487 | void ecx_esidump(ecx_contextt* context, uint16 slave, [01;31m[Kuint8[m[K* esibuf);
+      |                                                       [01;31m[K^~~~~[m[K
+      |                                                       [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:487:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kesibuf[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuf[m[K’?
+  487 | void ecx_esidump(ecx_contextt* context, uint16 slave, uint8* [01;31m[Kesibuf[m[K);
+      |                                                              [01;31m[K^~~~~~[m[K
+      |                                                              [32m[Ksetbuf[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:488:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  488 | [01;31m[Kuint32[m[K ecx_readeeprom(ecx_contextt* context, uint16 slave, uint16 eeproma, int timeout);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:489:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  489 | int ecx_writeeeprom([01;31m[Kecx_contextt[m[K* context, uint16 slave, uint16 eeproma, uint16 data, int timeout);
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:489:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  489 | int ecx_writeeeprom(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave, uint16 eeproma, uint16 data, int timeout);
+      |                                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:489:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  489 | int ecx_writeeeprom(ecx_contextt* context, [01;31m[Kuint16[m[K slave, uint16 eeproma, uint16 data, int timeout);
+      |                                            [01;31m[K^~~~~~[m[K
+      |                                            [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:489:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  489 | int ecx_writeeeprom(ecx_contextt* context, uint16 slave, [01;31m[Kuint16[m[K eeproma, uint16 data, int timeout);
+      |                                                          [01;31m[K^~~~~~[m[K
+      |                                                          [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:489:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  489 | int ecx_writeeeprom(ecx_contextt* context, uint16 slave, uint16 eeproma, [01;31m[Kuint16[m[K data, int timeout);
+      |                                                                          [01;31m[K^~~~~~[m[K
+      |                                                                          [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:489:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  489 | int ecx_writeeeprom(ecx_contextt* context, uint16 slave, uint16 eeproma, uint16 data, [01;31m[Kint[m[K timeout);
+      |                                                                                       [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:489:98:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  489 | int ecx_writeeeprom(ecx_contextt* context, uint16 slave, uint16 eeproma, uint16 data, int timeout[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:490:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  490 | int ecx_eeprom2master([01;31m[Kecx_contextt[m[K* context, uint16 slave);
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:490:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  490 | int ecx_eeprom2master(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave);
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:490:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  490 | int ecx_eeprom2master(ecx_contextt* context, [01;31m[Kuint16[m[K slave);
+      |                                              [01;31m[K^~~~~~[m[K
+      |                                              [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:490:58:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  490 | int ecx_eeprom2master(ecx_contextt* context, uint16 slave[01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:491:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  491 | int ecx_eeprom2pdi([01;31m[Kecx_contextt[m[K* context, uint16 slave);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:491:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  491 | int ecx_eeprom2pdi(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:491:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  491 | int ecx_eeprom2pdi(ecx_contextt* context, [01;31m[Kuint16[m[K slave);
+      |                                           [01;31m[K^~~~~~[m[K
+      |                                           [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:491:55:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  491 | int ecx_eeprom2pdi(ecx_contextt* context, uint16 slave[01;31m[K)[m[K;
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:492:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64[m[K’ does not name a type; did you mean ‘[01m[Krintf64[m[K’?
+  492 | [01;31m[Kuint64[m[K ecx_readeepromAP(ecx_contextt* context, uint16 aiadr, uint16 eeproma, int timeout);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Krintf64[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:493:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  493 | int ecx_writeeepromAP([01;31m[Kecx_contextt[m[K* context, uint16 aiadr, uint16 eeproma, uint16 data, int timeout);
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:493:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  493 | int ecx_writeeepromAP(ecx_contextt* [01;31m[Kcontext[m[K, uint16 aiadr, uint16 eeproma, uint16 data, int timeout);
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:493:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  493 | int ecx_writeeepromAP(ecx_contextt* context, [01;31m[Kuint16[m[K aiadr, uint16 eeproma, uint16 data, int timeout);
+      |                                              [01;31m[K^~~~~~[m[K
+      |                                              [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:493:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  493 | int ecx_writeeepromAP(ecx_contextt* context, uint16 aiadr, [01;31m[Kuint16[m[K eeproma, uint16 data, int timeout);
+      |                                                            [01;31m[K^~~~~~[m[K
+      |                                                            [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:493:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  493 | int ecx_writeeepromAP(ecx_contextt* context, uint16 aiadr, uint16 eeproma, [01;31m[Kuint16[m[K data, int timeout);
+      |                                                                            [01;31m[K^~~~~~[m[K
+      |                                                                            [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:493:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  493 | int ecx_writeeepromAP(ecx_contextt* context, uint16 aiadr, uint16 eeproma, uint16 data, [01;31m[Kint[m[K timeout);
+      |                                                                                         [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:493:100:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  493 | int ecx_writeeepromAP(ecx_contextt* context, uint16 aiadr, uint16 eeproma, uint16 data, int timeout[01;31m[K)[m[K;
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:494:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint64[m[K’ does not name a type; did you mean ‘[01m[Krintf64[m[K’?
+  494 | [01;31m[Kuint64[m[K ecx_readeepromFP(ecx_contextt* context, uint16 configadr, uint16 eeproma, int timeout);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Krintf64[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:495:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  495 | int ecx_writeeepromFP([01;31m[Kecx_contextt[m[K* context, uint16 configadr, uint16 eeproma, uint16 data, int timeout);
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:495:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  495 | int ecx_writeeepromFP(ecx_contextt* [01;31m[Kcontext[m[K, uint16 configadr, uint16 eeproma, uint16 data, int timeout);
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:495:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  495 | int ecx_writeeepromFP(ecx_contextt* context, [01;31m[Kuint16[m[K configadr, uint16 eeproma, uint16 data, int timeout);
+      |                                              [01;31m[K^~~~~~[m[K
+      |                                              [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:495:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  495 | int ecx_writeeepromFP(ecx_contextt* context, uint16 configadr, [01;31m[Kuint16[m[K eeproma, uint16 data, int timeout);
+      |                                                                [01;31m[K^~~~~~[m[K
+      |                                                                [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:495:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  495 | int ecx_writeeepromFP(ecx_contextt* context, uint16 configadr, uint16 eeproma, [01;31m[Kuint16[m[K data, int timeout);
+      |                                                                                [01;31m[K^~~~~~[m[K
+      |                                                                                [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:495:93:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  495 | int ecx_writeeepromFP(ecx_contextt* context, uint16 configadr, uint16 eeproma, uint16 data, [01;31m[Kint[m[K timeout);
+      |                                                                                             [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:495:104:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  495 | int ecx_writeeepromFP(ecx_contextt* context, uint16 configadr, uint16 eeproma, uint16 data, int timeout[01;31m[K)[m[K;
+      |                                                                                                        [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:496:22:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kecx_readeeprom1[m[K’ declared void
+  496 | void ecx_readeeprom1([01;31m[Kecx_contextt[m[K* context, uint16 slave, uint16 eeproma);
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:496:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:496:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  496 | void ecx_readeeprom1(ecx_contextt* [01;31m[Kcontext[m[K, uint16 slave, uint16 eeproma);
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:496:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  496 | void ecx_readeeprom1(ecx_contextt* context, [01;31m[Kuint16[m[K slave, uint16 eeproma);
+      |                                             [01;31m[K^~~~~~[m[K
+      |                                             [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:496:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint16[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  496 | void ecx_readeeprom1(ecx_contextt* context, uint16 slave, [01;31m[Kuint16[m[K eeproma);
+      |                                                           [01;31m[K^~~~~~[m[K
+      |                                                           [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:497:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint32[m[K’ does not name a type; did you mean ‘[01m[Krintf32[m[K’?
+  497 | [01;31m[Kuint32[m[K ecx_readeeprom2(ecx_contextt* context, uint16 slave, int timeout);
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Krintf32[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:498:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  498 | int ecx_send_overlap_processdata_group([01;31m[Kecx_contextt[m[K* context, uint8 group);
+      |                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:498:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  498 | int ecx_send_overlap_processdata_group(ecx_contextt* [01;31m[Kcontext[m[K, uint8 group);
+      |                                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:498:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  498 | int ecx_send_overlap_processdata_group(ecx_contextt* context, [01;31m[Kuint8[m[K group);
+      |                                                               [01;31m[K^~~~~[m[K
+      |                                                               [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:498:74:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  498 | int ecx_send_overlap_processdata_group(ecx_contextt* context, uint8 group[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:499:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  499 | int ecx_receive_processdata_group([01;31m[Kecx_contextt[m[K* context, uint8 group, int timeout);
+      |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:499:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  499 | int ecx_receive_processdata_group(ecx_contextt* [01;31m[Kcontext[m[K, uint8 group, int timeout);
+      |                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:499:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  499 | int ecx_receive_processdata_group(ecx_contextt* context, [01;31m[Kuint8[m[K group, int timeout);
+      |                                                          [01;31m[K^~~~~[m[K
+      |                                                          [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:499:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  499 | int ecx_receive_processdata_group(ecx_contextt* context, uint8 group, [01;31m[Kint[m[K timeout);
+      |                                                                       [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:499:82:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  499 | int ecx_receive_processdata_group(ecx_contextt* context, uint8 group, int timeout[01;31m[K)[m[K;
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:500:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  500 | int ecx_send_processdata([01;31m[Kecx_contextt[m[K* context);
+      |                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:500:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  500 | int ecx_send_processdata(ecx_contextt* [01;31m[Kcontext[m[K);
+      |                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:501:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  501 | int ecx_send_overlap_processdata([01;31m[Kecx_contextt[m[K* context);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:501:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  501 | int ecx_send_overlap_processdata(ecx_contextt* [01;31m[Kcontext[m[K);
+      |                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:502:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  502 | int ecx_receive_processdata([01;31m[Kecx_contextt[m[K* context, int timeout);
+      |                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:502:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  502 | int ecx_receive_processdata(ecx_contextt* [01;31m[Kcontext[m[K, int timeout);
+      |                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:502:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  502 | int ecx_receive_processdata(ecx_contextt* context, [01;31m[Kint[m[K timeout);
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:502:63:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  502 | int ecx_receive_processdata(ecx_contextt* context, int timeout[01;31m[K)[m[K;
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:503:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+  503 | int ecx_send_processdata_group([01;31m[Kecx_contextt[m[K* context, uint8 group);
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:503:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+  503 | int ecx_send_processdata_group(ecx_contextt* [01;31m[Kcontext[m[K, uint8 group);
+      |                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:503:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kuint8[m[K’ was not declared in this scope; did you mean ‘[01m[Kuint[m[K’?
+  503 | int ecx_send_processdata_group(ecx_contextt* context, [01;31m[Kuint8[m[K group);
+      |                                                       [01;31m[K^~~~~[m[K
+      |                                                       [32m[Kuint[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:503:66:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  503 | int ecx_send_processdata_group(ecx_contextt* context, uint8 group[01;31m[K)[m[K;
+      |                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:27[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:77:19:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kecx_SDOerror[m[K’ declared void
+   77 | void ecx_SDOerror([01;31m[Kecx_contextt[m[K *context, uint16 Slave, uint16 Index, uint8 SubIdx, int32 AbortCode);
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:77:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:77:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   77 | void ecx_SDOerror(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Slave, uint16 Index, uint8 SubIdx, int32 AbortCode);
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:77:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSlave[m[K’
+   77 | void ecx_SDOerror(ecx_contextt *context, uint16 [01;31m[KSlave[m[K, uint16 Index, uint8 SubIdx, int32 AbortCode);
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:77:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KIndex[m[K’
+   77 | void ecx_SDOerror(ecx_contextt *context, uint16 Slave, uint16 [01;31m[KIndex[m[K, uint8 SubIdx, int32 AbortCode);
+      |                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:77:76:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSubIdx[m[K’
+   77 | void ecx_SDOerror(ecx_contextt *context, uint16 Slave, uint16 Index, uint8 [01;31m[KSubIdx[m[K, int32 AbortCode);
+      |                                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:77:90:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KAbortCode[m[K’
+   77 | void ecx_SDOerror(ecx_contextt *context, uint16 Slave, uint16 Index, uint8 SubIdx, int32 [01;31m[KAbortCode[m[K);
+      |                                                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:78:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   78 | int ecx_SDOread([01;31m[Kecx_contextt[m[K *context, uint16 slave, uint16 index, uint8 subindex,
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:78:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   78 | int ecx_SDOread(ecx_contextt *[01;31m[Kcontext[m[K, uint16 slave, uint16 index, uint8 subindex,
+      |                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:78:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kslave[m[K’
+   78 | int ecx_SDOread(ecx_contextt *context, uint16 [01;31m[Kslave[m[K, uint16 index, uint8 subindex,
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:78:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kindex[m[K’
+   78 | int ecx_SDOread(ecx_contextt *context, uint16 slave, uint16 [01;31m[Kindex[m[K, uint8 subindex,
+      |                                                             [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:78:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ksubindex[m[K’
+   78 | int ecx_SDOread(ecx_contextt *context, uint16 slave, uint16 index, uint8 [01;31m[Ksubindex[m[K,
+      |                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:79:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KCA[m[K’
+   79 |                       boolean [01;31m[KCA[m[K, int *psize, void *p, int timeout);
+      |                               [01;31m[K^~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:79:35:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   79 |                       boolean CA, [01;31m[Kint[m[K *psize, void *p, int timeout);
+      |                                   [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:79:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+   79 |                       boolean CA, int *psize, [01;31m[Kvoid[m[K *p, int timeout);
+      |                                               [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:79:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   79 |                       boolean CA, int *psize, void *p, [01;31m[Kint[m[K timeout);
+      |                                                        [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:79:67:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   79 |                       boolean CA, int *psize, void *p, int timeout[01;31m[K)[m[K;
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:80:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   80 | int ecx_SDOwrite([01;31m[Kecx_contextt[m[K *context, uint16 Slave, uint16 Index, uint8 SubIndex,
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:80:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   80 | int ecx_SDOwrite(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Slave, uint16 Index, uint8 SubIndex,
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:80:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSlave[m[K’
+   80 | int ecx_SDOwrite(ecx_contextt *context, uint16 [01;31m[KSlave[m[K, uint16 Index, uint8 SubIndex,
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:80:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KIndex[m[K’
+   80 | int ecx_SDOwrite(ecx_contextt *context, uint16 Slave, uint16 [01;31m[KIndex[m[K, uint8 SubIndex,
+      |                                                              [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:80:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSubIndex[m[K’
+   80 | int ecx_SDOwrite(ecx_contextt *context, uint16 Slave, uint16 Index, uint8 [01;31m[KSubIndex[m[K,
+      |                                                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:81:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KCA[m[K’
+   81 |     boolean [01;31m[KCA[m[K, int psize, void *p, int Timeout);
+      |             [01;31m[K^~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:81:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   81 |     boolean CA, [01;31m[Kint[m[K psize, void *p, int Timeout);
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:81:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+   81 |     boolean CA, int psize, [01;31m[Kvoid[m[K *p, int Timeout);
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:81:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   81 |     boolean CA, int psize, void *p, [01;31m[Kint[m[K Timeout);
+      |                                     [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:81:48:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   81 |     boolean CA, int psize, void *p, int Timeout[01;31m[K)[m[K;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:82:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   82 | int ecx_RxPDO([01;31m[Kecx_contextt[m[K *context, uint16 Slave, uint16 RxPDOnumber , int psize, void *p);
+      |               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:82:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   82 | int ecx_RxPDO(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Slave, uint16 RxPDOnumber , int psize, void *p);
+      |                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:82:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSlave[m[K’
+   82 | int ecx_RxPDO(ecx_contextt *context, uint16 [01;31m[KSlave[m[K, uint16 RxPDOnumber , int psize, void *p);
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:82:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KRxPDOnumber[m[K’
+   82 | int ecx_RxPDO(ecx_contextt *context, uint16 Slave, uint16 [01;31m[KRxPDOnumber[m[K , int psize, void *p);
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:82:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   82 | int ecx_RxPDO(ecx_contextt *context, uint16 Slave, uint16 RxPDOnumber , [01;31m[Kint[m[K psize, void *p);
+      |                                                                         [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:82:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+   82 | int ecx_RxPDO(ecx_contextt *context, uint16 Slave, uint16 RxPDOnumber , int psize, [01;31m[Kvoid[m[K *p);
+      |                                                                                    [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:82:91:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   82 | int ecx_RxPDO(ecx_contextt *context, uint16 Slave, uint16 RxPDOnumber , int psize, void *p[01;31m[K)[m[K;
+      |                                                                                           [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   83 | int ecx_TxPDO([01;31m[Kecx_contextt[m[K *context, uint16 slave, uint16 TxPDOnumber , int *psize, void *p, int timeout);
+      |               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   83 | int ecx_TxPDO(ecx_contextt *[01;31m[Kcontext[m[K, uint16 slave, uint16 TxPDOnumber , int *psize, void *p, int timeout);
+      |                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kslave[m[K’
+   83 | int ecx_TxPDO(ecx_contextt *context, uint16 [01;31m[Kslave[m[K, uint16 TxPDOnumber , int *psize, void *p, int timeout);
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KTxPDOnumber[m[K’
+   83 | int ecx_TxPDO(ecx_contextt *context, uint16 slave, uint16 [01;31m[KTxPDOnumber[m[K , int *psize, void *p, int timeout);
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   83 | int ecx_TxPDO(ecx_contextt *context, uint16 slave, uint16 TxPDOnumber , [01;31m[Kint[m[K *psize, void *p, int timeout);
+      |                                                                         [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:85:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+   83 | int ecx_TxPDO(ecx_contextt *context, uint16 slave, uint16 TxPDOnumber , int *psize, [01;31m[Kvoid[m[K *p, int timeout);
+      |                                                                                     [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   83 | int ecx_TxPDO(ecx_contextt *context, uint16 slave, uint16 TxPDOnumber , int *psize, void *p, [01;31m[Kint[m[K timeout);
+      |                                                                                              [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:83:105:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   83 | int ecx_TxPDO(ecx_contextt *context, uint16 slave, uint16 TxPDOnumber , int *psize, void *p, int timeout[01;31m[K)[m[K;
+      |                                                                                                         [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:84:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   84 | int ecx_readPDOmap([01;31m[Kecx_contextt[m[K *context, uint16 Slave, int *Osize, int *Isize);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:84:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   84 | int ecx_readPDOmap(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Slave, int *Osize, int *Isize);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:84:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSlave[m[K’
+   84 | int ecx_readPDOmap(ecx_contextt *context, uint16 [01;31m[KSlave[m[K, int *Osize, int *Isize);
+      |                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:84:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   84 | int ecx_readPDOmap(ecx_contextt *context, uint16 Slave, [01;31m[Kint[m[K *Osize, int *Isize);
+      |                                                         [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:84:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   84 | int ecx_readPDOmap(ecx_contextt *context, uint16 Slave, int *Osize, [01;31m[Kint[m[K *Isize);
+      |                                                                     [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:84:79:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   84 | int ecx_readPDOmap(ecx_contextt *context, uint16 Slave, int *Osize, int *Isize[01;31m[K)[m[K;
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:85:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   85 | int ecx_readPDOmapCA([01;31m[Kecx_contextt[m[K *context, uint16 Slave, int Thread_n, int *Osize, int *Isize);
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:85:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   85 | int ecx_readPDOmapCA(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Slave, int Thread_n, int *Osize, int *Isize);
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:85:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSlave[m[K’
+   85 | int ecx_readPDOmapCA(ecx_contextt *context, uint16 [01;31m[KSlave[m[K, int Thread_n, int *Osize, int *Isize);
+      |                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:85:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   85 | int ecx_readPDOmapCA(ecx_contextt *context, uint16 Slave, [01;31m[Kint[m[K Thread_n, int *Osize, int *Isize);
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:85:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   85 | int ecx_readPDOmapCA(ecx_contextt *context, uint16 Slave, int Thread_n, [01;31m[Kint[m[K *Osize, int *Isize);
+      |                                                                         [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:85:85:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   85 | int ecx_readPDOmapCA(ecx_contextt *context, uint16 Slave, int Thread_n, int *Osize, [01;31m[Kint[m[K *Isize);
+      |                                                                                     [01;31m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:85:95:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   85 | int ecx_readPDOmapCA(ecx_contextt *context, uint16 Slave, int Thread_n, int *Osize, int *Isize[01;31m[K)[m[K;
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:86:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   86 | int ecx_readODlist([01;31m[Kecx_contextt[m[K *context, uint16 Slave, ec_ODlistt *pODlist);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:86:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   86 | int ecx_readODlist(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Slave, ec_ODlistt *pODlist);
+      |                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:86:50:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSlave[m[K’
+   86 | int ecx_readODlist(ecx_contextt *context, uint16 [01;31m[KSlave[m[K, ec_ODlistt *pODlist);
+      |                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:86:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+   86 | int ecx_readODlist(ecx_contextt *context, uint16 Slave, ec_ODlistt [01;31m[K*[m[KpODlist);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:86:69:[m[K [01;31m[Kerror: [m[K‘[01m[KpODlist[m[K’ was not declared in this scope
+   86 | int ecx_readODlist(ecx_contextt *context, uint16 Slave, ec_ODlistt *[01;31m[KpODlist[m[K);
+      |                                                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:86:76:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   86 | int ecx_readODlist(ecx_contextt *context, uint16 Slave, ec_ODlistt *pODlist[01;31m[K)[m[K;
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:87:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   87 | int ecx_readODdescription([01;31m[Kecx_contextt[m[K *context, uint16 Item, ec_ODlistt *pODlist);
+      |                           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:87:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   87 | int ecx_readODdescription(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Item, ec_ODlistt *pODlist);
+      |                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:87:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KItem[m[K’
+   87 | int ecx_readODdescription(ecx_contextt *context, uint16 [01;31m[KItem[m[K, ec_ODlistt *pODlist);
+      |                                                         [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:87:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+   87 | int ecx_readODdescription(ecx_contextt *context, uint16 Item, ec_ODlistt [01;31m[K*[m[KpODlist);
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:87:75:[m[K [01;31m[Kerror: [m[K‘[01m[KpODlist[m[K’ was not declared in this scope
+   87 | int ecx_readODdescription(ecx_contextt *context, uint16 Item, ec_ODlistt *[01;31m[KpODlist[m[K);
+      |                                                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:87:82:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   87 | int ecx_readODdescription(ecx_contextt *context, uint16 Item, ec_ODlistt *pODlist[01;31m[K)[m[K;
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   88 | int ecx_readOEsingle([01;31m[Kecx_contextt[m[K *context, uint16 Item, uint8 SubI, ec_ODlistt *pODlist, ec_OElistt *pOElist);
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   88 | int ecx_readOEsingle(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Item, uint8 SubI, ec_ODlistt *pODlist, ec_OElistt *pOElist);
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KItem[m[K’
+   88 | int ecx_readOEsingle(ecx_contextt *context, uint16 [01;31m[KItem[m[K, uint8 SubI, ec_ODlistt *pODlist, ec_OElistt *pOElist);
+      |                                                    [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:64:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KSubI[m[K’
+   88 | int ecx_readOEsingle(ecx_contextt *context, uint16 Item, uint8 [01;31m[KSubI[m[K, ec_ODlistt *pODlist, ec_OElistt *pOElist);
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+   88 | int ecx_readOEsingle(ecx_contextt *context, uint16 Item, uint8 SubI, ec_ODlistt [01;31m[K*[m[KpODlist, ec_OElistt *pOElist);
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:82:[m[K [01;31m[Kerror: [m[K‘[01m[KpODlist[m[K’ was not declared in this scope
+   88 | int ecx_readOEsingle(ecx_contextt *context, uint16 Item, uint8 SubI, ec_ODlistt *[01;31m[KpODlist[m[K, ec_OElistt *pOElist);
+      |                                                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:102:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+   88 | int ecx_readOEsingle(ecx_contextt *context, uint16 Item, uint8 SubI, ec_ODlistt *pODlist, ec_OElistt [01;31m[K*[m[KpOElist);
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:103:[m[K [01;31m[Kerror: [m[K‘[01m[KpOElist[m[K’ was not declared in this scope
+   88 | int ecx_readOEsingle(ecx_contextt *context, uint16 Item, uint8 SubI, ec_ODlistt *pODlist, ec_OElistt *[01;31m[KpOElist[m[K);
+      |                                                                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:88:110:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   88 | int ecx_readOEsingle(ecx_contextt *context, uint16 Item, uint8 SubI, ec_ODlistt *pODlist, ec_OElistt *pOElist[01;31m[K)[m[K;
+      |                                                                                                              [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_contextt[m[K’ was not declared in this scope
+   89 | int ecx_readOE([01;31m[Kecx_contextt[m[K *context, uint16 Item, ec_ODlistt *pODlist, ec_OElistt *pOElist);
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontext[m[K’ was not declared in this scope
+   89 | int ecx_readOE(ecx_contextt *[01;31m[Kcontext[m[K, uint16 Item, ec_ODlistt *pODlist, ec_OElistt *pOElist);
+      |                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[KItem[m[K’
+   89 | int ecx_readOE(ecx_contextt *context, uint16 [01;31m[KItem[m[K, ec_ODlistt *pODlist, ec_OElistt *pOElist);
+      |                                              [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+   89 | int ecx_readOE(ecx_contextt *context, uint16 Item, ec_ODlistt [01;31m[K*[m[KpODlist, ec_OElistt *pOElist);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:64:[m[K [01;31m[Kerror: [m[K‘[01m[KpODlist[m[K’ was not declared in this scope
+   89 | int ecx_readOE(ecx_contextt *context, uint16 Item, ec_ODlistt *[01;31m[KpODlist[m[K, ec_OElistt *pOElist);
+      |                                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K*[m[K’ token
+   89 | int ecx_readOE(ecx_contextt *context, uint16 Item, ec_ODlistt *pODlist, ec_OElistt [01;31m[K*[m[KpOElist);
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:85:[m[K [01;31m[Kerror: [m[K‘[01m[KpOElist[m[K’ was not declared in this scope
+   89 | int ecx_readOE(ecx_contextt *context, uint16 Item, ec_ODlistt *pODlist, ec_OElistt *[01;31m[KpOElist[m[K);
+      |                                                                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatcoe.h:89:92:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+   89 | int ecx_readOE(ecx_contextt *context, uint16 Item, ec_ODlistt *pODlist, ec_OElistt *pOElist[01;31m[K)[m[K;
+      |                                                                                            [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/soem_interface_examples_1.dir/build.make:63: CMakeFiles/soem_interface_examples_1.dir/src/example_slave.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:172: CMakeFiles/soem_interface_examples_1.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

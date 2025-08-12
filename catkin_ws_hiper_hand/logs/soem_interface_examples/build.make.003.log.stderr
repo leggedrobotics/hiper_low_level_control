@@ -1,0 +1,20 @@
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:40:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksoem_interface_rsl::EthercatBusBase::startup()[m[K’
+   40 |   bus->startup([01;31m[K)[m[K;
+      |                [01;31m[K^[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/include/soem_interface_examples/ExampleSlave.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:23[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:136:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::startup(bool, int)[m[K’
+  136 |   bool [01;36m[Kstartup[m[K(bool sizeCheck, int maxDiscoverRetries = 10);
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:136:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:138:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::startup(std::atomic<bool>&, bool, int)[m[K’
+  138 |   bool [01;36m[Kstartup[m[K(std::atomic<bool>& abortFlag, bool sizeCheck, int maxDiscoverRetries = 10);
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:138:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:41:17:[m[K [01;31m[Kerror: [m[K‘[01m[KEC_STATE_OPERATIONAL[m[K’ was not declared in this scope
+   41 |   bus->setState([01;31m[KEC_STATE_OPERATIONAL[m[K);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/soem_interface_examples_1.dir/build.make:63: CMakeFiles/soem_interface_examples_1.dir/src/example_slave.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:172: CMakeFiles/soem_interface_examples_1.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

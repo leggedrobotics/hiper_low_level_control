@@ -1,0 +1,11 @@
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/example_slave.cpp:25[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:372:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_portt[m[K’ does not name a type; did you mean ‘[01m[Kecx_context[m[K’?
+  372 |   [01;31m[Kecx_portt[m[K* port;
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[Kecx_context[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/./soem_rsl/soem_rsl/ethercatmain.h:475:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_redportt[m[K’ has not been declared
+  475 | int ecx_init_redundant(ecx_contextt* context, [01;31m[Kecx_redportt[m[K* redport, const char* ifname, char* if2name);
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/soem_interface_examples_1.dir/build.make:63: CMakeFiles/soem_interface_examples_1.dir/src/example_slave.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:172: CMakeFiles/soem_interface_examples_1.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

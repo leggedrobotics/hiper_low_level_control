@@ -1,0 +1,174 @@
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:40[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/include/soem_interface_examples/ExampleSlave.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/soem_interface_examples/ExampleSlave.cpp:23[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:47:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring_view[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   47 |   const std::[01;31m[Kstring_view[m[K name{};
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:47:9:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string_view[m[K’ is only available from C++17 onwards
+   47 |   const [01;36m[Kstd[m[K::string_view name{};
+      |         [01;36m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:48:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string_view[m[K’ has not been declared
+   48 |   constexpr RegEntry(Enum_ addr_, RegTypeEnum regTypeEnum_, std::[01;31m[Kstring_view[m[K name_)
+      |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:[m[K In constructor ‘[01m[Kconstexpr soem_interface_rsl::RegEntry<Enum_>::RegEntry(Enum_, soem_interface_rsl::RegTypeEnum, int)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:49:89:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksoem_interface_rsl::RegEntry<Enum_>[m[K’ does not have any field named ‘[01m[Kname[m[K’
+   49 |       : addr(static_cast<uint16_t>(addr_)), addrEnum(addr_), regTypeEnum(regTypeEnum_), [01;31m[Kname[m[K(name_){};
+      |                                                                                         [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:[m[K At global scope:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:55:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_same_v[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kis_same[m[K’?
+   55 |   static_assert(std::[01;31m[Kis_same_v[m[K<std::underlying_type_t<RegAddrEnum>, uint16_t>);
+      |                      [01;31m[K^~~~~~~~~[m[K
+      |                      [32m[Kis_same[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:55:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   55 |   static_assert(std::is_same_v<std::underlying_type_t<RegAddrEnum>[01;31m[K,[m[K uint16_t>);
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:55:69:[m[K [01;31m[Kerror: [m[Kexpected string-literal before ‘[01m[Kuint16_t[m[K’
+   55 |   static_assert(std::is_same_v<std::underlying_type_t<RegAddrEnum>, [01;31m[Kuint16_t[m[K>);
+      |                                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:55:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kuint16_t[m[K’
+   55 |   static_assert[34m[K([m[Kstd::is_same_v<std::underlying_type_t<RegAddrEnum>,[01;31m[K [m[K[32m[Kuint16_t[m[K>);
+      |                [34m[K~[m[K                                                   [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                                                                    [32m[K)[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:40[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/include/soem_interface_examples/ExampleSlave.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/soem_interface_examples/ExampleSlave.cpp:23[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:159:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  159 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::FRAME_ERROR_PORT0_ADDR, RegTypeEnum::Unsigned8, "Frame error count port 0"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:160:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  160 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PHYSICAL_ERROR_PORT0_ADDR, RegTypeEnum::Unsigned8, "Physical error count port 0"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:161:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  161 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::FRAME_ERROR_PORT1_ADDR, RegTypeEnum::Unsigned8, "Frame error count port 1"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:162:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  162 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PHYSICAL_ERROR_PORT1_ADDR, RegTypeEnum::Unsigned8, "Physical error count port 1"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:163:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  163 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::FRAME_ERROR_PORT2_ADDR, RegTypeEnum::Unsigned8, "Frame error count prot 2"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:164:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  164 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PHYSICAL_ERROR_PORT2_ADDR, RegTypeEnum::Unsigned8, "Physical error count port 2"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:165:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  165 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::FRAME_ERROR_PORT3_ADDR, RegTypeEnum::Unsigned8, "Frame error count port 3"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:166:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  166 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PHYSICAL_ERROR_PORT3_ADDR, RegTypeEnum::Unsigned8, "Physical error count port 3"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:167:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  167 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PREVIOUS_ERROR_CNT_PORT0, RegTypeEnum::Unsigned8, "Port 0 previous error count"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:168:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  168 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PREVIOUS_ERROR_CNT_PORT1, RegTypeEnum::Unsigned8, "Port 1 previous error count"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:169:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  169 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PREVIOUS_ERROR_CNT_PORT2, RegTypeEnum::Unsigned8, "Port 2 previous error count"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:170:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  170 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::PREVIOUS_ERROR_CNT_PORT3, RegTypeEnum::Unsigned8, "Port 3 previous error count"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:171:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  171 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::MALFORMAT_FRAME_CNT, RegTypeEnum::Unsigned8, "Malformat frame counter"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:172:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  172 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::LOCAL_PROBLEM_CNT, RegTypeEnum::Unsigned8, "Local problem counter"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:173:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  173 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::LOST_LINK_CNT_PORT0, RegTypeEnum::Unsigned8, "Lost link count port 0"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:174:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  174 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::LOST_LINK_CNT_PORT1, RegTypeEnum::Unsigned8, "Lost link count port 1"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:175:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  175 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::LOST_LINK_CNT_PORT2, RegTypeEnum::Unsigned8, "Lost link count port 2"),
+      |               [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ExtendedRegisters.hpp:176:15:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[K([m[K’ token
+  176 |       RegEntry[01;31m[K([m[KERROR_COUNTERS::LOST_LINK_CNT_PORT3, RegTypeEnum::Unsigned8, "Lost link count port 3")};
+      |               [01;31m[K^[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:42[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/include/soem_interface_examples/ExampleSlave.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/soem_interface_examples/ExampleSlave.cpp:23[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:114:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string_view[m[K’ has not been declared
+  114 |   constexpr SubEntry(uint8_t subIdx_, uint16_t simplifiedAccess_, std::[01;31m[Kstring_view[m[K name_, ETHERCAT_TYPE datatype_)
+      |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:116:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string_view[m[K’ has not been declared
+  116 |   constexpr SubEntry(uint8_t subIdx_, uint16_t simplifiedAccess_, std::[01;31m[Kstring_view[m[K name_, ETHERCAT_TYPE datatype_,
+      |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:117:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string_view[m[K’ has not been declared
+  117 |                      std::[01;31m[Kstring_view[m[K unitStr_, double toSIFactor_, std::string_view siUnitStr_)
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:117:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string_view[m[K’ has not been declared
+  117 |                      std::string_view unitStr_, double toSIFactor_, std::[01;31m[Kstring_view[m[K siUnitStr_)
+      |                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:131:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring_view[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+  131 |   const std::[01;31m[Kstring_view[m[K name;
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:131:9:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string_view[m[K’ is only available from C++17 onwards
+  131 |   const [01;36m[Kstd[m[K::string_view name;
+      |         [01;36m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:133:14:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+  133 |   const std::[01;31m[Koptional[m[K<std::string_view> unitStr{};
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:133:9:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+  133 |   const [01;36m[Kstd[m[K::optional<std::string_view> unitStr{};
+      |         [01;36m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:134:14:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+  134 |   const std::[01;31m[Koptional[m[K<double> toSIFactor{};
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:134:9:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+  134 |   const [01;36m[Kstd[m[K::optional<double> toSIFactor{};
+      |         [01;36m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:135:14:[m[K [01;31m[Kerror: [m[K‘[01m[Koptional[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+  135 |   const std::[01;31m[Koptional[m[K<std::string_view> siUnitStr{};
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:135:9:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::optional[m[K’ is only available from C++17 onwards
+  135 |   const [01;36m[Kstd[m[K::optional<std::string_view> siUnitStr{};
+      |         [01;36m[K^~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:[m[K In constructor ‘[01m[Kconstexpr soem_interface_rsl::SubEntry::SubEntry(uint8_t, uint16_t, int, soem_interface_rsl::ETHERCAT_TYPE)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:115:63:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksoem_interface_rsl::SubEntry[m[K’ does not have any field named ‘[01m[Kname[m[K’
+  115 |       : subIdx(subIdx_), simplifiedAccess(simplifiedAccess_), [01;31m[Kname[m[K(name_), datatype(datatype_){};
+      |                                                               [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:[m[K In constructor ‘[01m[Kconstexpr soem_interface_rsl::SubEntry::SubEntry(uint8_t, uint16_t, int, soem_interface_rsl::ETHERCAT_TYPE, int, double, int)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:120:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksoem_interface_rsl::SubEntry[m[K’ does not have any field named ‘[01m[Kname[m[K’
+  120 |         [01;31m[Kname[m[K(name_),
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:122:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksoem_interface_rsl::SubEntry[m[K’ does not have any field named ‘[01m[KunitStr[m[K’
+  122 |         [01;31m[KunitStr[m[K(unitStr_),
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:123:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksoem_interface_rsl::SubEntry[m[K’ does not have any field named ‘[01m[KtoSIFactor[m[K’
+  123 |         [01;31m[KtoSIFactor[m[K(toSIFactor_),
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:124:9:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksoem_interface_rsl::SubEntry[m[K’ does not have any field named ‘[01m[KsiUnitStr[m[K’
+  124 |         [01;31m[KsiUnitStr[m[K(siUnitStr_){};
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:[m[K In constructor ‘[01m[Kconstexpr soem_interface_rsl::SubEntry::SubEntry(uint8_t, uint16_t)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:127:63:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ksoem_interface_rsl::SubEntry[m[K’ does not have any field named ‘[01m[Kname[m[K’
+  127 |       : subIdx(subIdx_), simplifiedAccess(simplifiedAccess_), [01;31m[Kname[m[K("not_impl"), datatype(ETHERCAT_TYPE::ECT_BOOLEAN){};
+      |                                                               [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:[m[K In member function ‘[01m[Kconstexpr const EntryType& soem_interface_rsl::Entries<EntryType, EntryEnum>::operator[](IdxType) const[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/common/ObjectDictionaryUtilities.hpp:154:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kif constexpr[m[K’ only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’ [[01;31m[K-Werror[m[K]
+  154 |     if [01;31m[Kconstexpr[m[K (std::is_same<IdxType, EntryEnum>::value) {
+      |        [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/include/soem_interface_examples/ExampleSlave.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_examples/src/soem_interface_examples/ExampleSlave.cpp:23[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:[m[K In member function ‘[01m[Kvoid soem_interface_rsl::EthercatBusBase::readTxPdo(uint16_t, TxPdo&) const[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:299:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbyte[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  299 |     std::[01;31m[Kbyte[m[K buffer[sizeof(TxPdo)];
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:300:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+  300 |     readTxPdoForward(slave, sizeof(TxPdo), [01;31m[Kbuffer[m[K);
+      |                                            [01;31m[K^~~~~~[m[K
+      |                                            [32m[Ksetbuffer[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:[m[K In member function ‘[01m[Kvoid soem_interface_rsl::EthercatBusBase::writeRxPdo(uint16_t, const RxPdo&)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:311:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbyte[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  311 |     std::[01;31m[Kbyte[m[K buffer[sizeof(RxPdo)];
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:312:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+  312 |     memcpy([01;31m[Kbuffer[m[K, &rxPdo, sizeof(RxPdo));
+      |            [01;31m[K^~~~~~[m[K
+      |            [32m[Ksetbuffer[m[K
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/soem_interface_examples.dir/build.make:63: CMakeFiles/soem_interface_examples.dir/src/soem_interface_examples/ExampleSlave.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/soem_interface_examples.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

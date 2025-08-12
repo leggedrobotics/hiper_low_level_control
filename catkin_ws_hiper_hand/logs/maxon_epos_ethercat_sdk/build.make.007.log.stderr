@@ -1,0 +1,96 @@
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:42[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/soem_rsl/soem_rsl/ethercatmain.h:369:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_portt[m[K’ does not name a type; did you mean ‘[01m[Kecx_context[m[K’?
+  369 |   [01;31m[Kecx_portt[m[K* port;
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[Kecx_context[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/soem_rsl/soem_rsl/ethercatmain.h:472:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_redportt[m[K’ has not been declared
+  472 | int ecx_init_redundant(ecx_contextt* context, [01;31m[Kecx_redportt[m[K* redport, const char* ifname, char* if2name);
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:[m[K In member function ‘[01m[Kbool maxon::Maxon::putIntoOperation()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:75:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksoem_interface_rsl::EthercatBusBase::waitForState(ec_state, uint32_t, int, double)[m[K’
+   75 |         bus_->waitForState(EC_STATE_OPERATIONAL, getAddress(), 1000, 0.001[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:40[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(uint16_t, uint16_t, unsigned int)[m[K’
+  189 |   bool [01;36m[KwaitForState[m[K(const uint16_t state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(soem_interface_rsl::ETHERCAT_SM_STATE, uint16_t, unsigned int)[m[K’
+  190 |   bool [01;36m[KwaitForState[m[K(ETHERCAT_SM_STATE state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:[m[K In member function ‘[01m[Kvirtual bool maxon::Maxon::startup()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:81:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksoem_interface_rsl::EthercatBusBase::waitForState(ec_state, uint32_t&, int, double)[m[K’
+   81 |   success &= bus_->waitForState(EC_STATE_PRE_OP, address_, 50, 0.05[01;31m[K)[m[K;
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:40[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(uint16_t, uint16_t, unsigned int)[m[K’
+  189 |   bool [01;36m[KwaitForState[m[K(const uint16_t state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(soem_interface_rsl::ETHERCAT_SM_STATE, uint16_t, unsigned int)[m[K’
+  190 |   bool [01;36m[KwaitForState[m[K(ETHERCAT_SM_STATE state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+make[2]: *** [CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make:154: CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:42[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp:36[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/soem_rsl/soem_rsl/ethercatmain.h:369:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_portt[m[K’ does not name a type; did you mean ‘[01m[Kecx_context[m[K’?
+  369 |   [01;31m[Kecx_portt[m[K* port;
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[Kecx_context[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/soem_rsl/soem_rsl/ethercatmain.h:472:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_redportt[m[K’ has not been declared
+  472 | int ecx_init_redundant(ecx_contextt* context, [01;31m[Kecx_redportt[m[K* redport, const char* ifname, char* if2name);
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:42[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Diagnostics.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/soem_rsl/soem_rsl/ethercatmain.h:369:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_portt[m[K’ does not name a type; did you mean ‘[01m[Kecx_context[m[K’?
+  369 |   [01;31m[Kecx_portt[m[K* port;
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[Kecx_context[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_rsl/soem_rsl/soem_rsl/ethercatmain.h:472:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kecx_redportt[m[K’ has not been declared
+  472 | int ecx_init_redundant(ecx_contextt* context, [01;31m[Kecx_redportt[m[K* redport, const char* ifname, char* if2name);
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp:36[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:[m[K In member function ‘[01m[Kbool maxon::Maxon::putIntoOperation()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:75:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksoem_interface_rsl::EthercatBusBase::waitForState(ec_state, uint32_t, int, double)[m[K’
+   75 |         bus_->waitForState(EC_STATE_OPERATIONAL, getAddress(), 1000, 0.001[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:40[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp:36[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(uint16_t, uint16_t, unsigned int)[m[K’
+  189 |   bool [01;36m[KwaitForState[m[K(const uint16_t state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(soem_interface_rsl::ETHERCAT_SM_STATE, uint16_t, unsigned int)[m[K’
+  190 |   bool [01;36m[KwaitForState[m[K(ETHERCAT_SM_STATE state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Diagnostics.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:[m[K In member function ‘[01m[Kbool maxon::Maxon::putIntoOperation()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:75:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksoem_interface_rsl::EthercatBusBase::waitForState(ec_state, uint32_t, int, double)[m[K’
+   75 |         bus_->waitForState(EC_STATE_OPERATIONAL, getAddress(), 1000, 0.001[01;31m[K)[m[K;
+      |                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:40[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Diagnostics.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(uint16_t, uint16_t, unsigned int)[m[K’
+  189 |   bool [01;36m[KwaitForState[m[K(const uint16_t state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:189:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool soem_interface_rsl::EthercatBusBase::waitForState(soem_interface_rsl::ETHERCAT_SM_STATE, uint16_t, unsigned int)[m[K’
+  190 |   bool [01;36m[KwaitForState[m[K(ETHERCAT_SM_STATE state, const uint16_t slave = 0, const unsigned int maxRetries = 40);
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:190:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+make[2]: *** [CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make:128: CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.o] Error 1
+make[2]: *** [CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make:102: CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/maxon_epos_ethercat_sdk.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

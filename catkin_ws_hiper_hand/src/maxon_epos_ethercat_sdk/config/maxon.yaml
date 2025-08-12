@@ -1,0 +1,42 @@
+Maxon:
+  config_run_sdo_verify_timeout: 50000
+  print_debug_messages: true
+  use_raw_commands: false
+  drive_state_change_min_timeout: 2000
+  drive_state_change_max_timeout: 1000000
+  min_number_of_successful_target_state_readings: 5
+
+Reading:
+  force_append_equal_error: true
+  force_append_equal_fault: false
+  error_storage_capacity: 100
+  fault_storage_capacity: 100
+
+Hardware:
+  mode_of_operation:
+  - CyclicSynchronousTorqueMode
+  - CyclicSynchronousPositionMode
+  - CyclicSynchronousVelocityMode
+  #position_encoder_resolution: 4096
+  gear_ratio: [1, 1]
+  #motor_constant: 1.0
+  working_voltage: 24
+  pole_pairs: 6
+  speed_constant: 661
+  torque_constant: 0.0144
+  max_current: 12.9
+  nominal_current: 1.91
+  motor_rated_torque: 0.0286
+  min_position: 0
+  max_position: 0 # Disable checks
+  max_profile_velocity: 15000
+  quick_stop_decel: 1000
+  profile_decel: 1000
+  follow_error_window: 2000
+  current_p_gain: 1.522392
+  current_i_gain: 6.796883
+  position_p_gain: 0.65708
+  position_i_gain: 8.565174
+  position_d_gain: 0.01418625
+  velocity_p_gain: 0.020178
+  velocity_i_gain: 1.144044

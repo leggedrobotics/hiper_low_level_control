@@ -1,0 +1,6 @@
+devel_space: /home/zrene/catkin_ws_hiper_hand/devel
+install: false
+install_space: /home/zrene/catkin_ws_hiper_hand/install
+profile: default
+source_space: /home/zrene/catkin_ws_hiper_hand/src
+workspace: /home/zrene/catkin_ws_hiper_hand

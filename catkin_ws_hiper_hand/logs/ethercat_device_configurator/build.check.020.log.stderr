@@ -1,0 +1,18 @@
+Found EtherCAT device sdk: anydrive_rsl
+Found EtherCAT device sdk: rokubimini_rsl_ethercat_slave
+Found EtherCAT device sdk: maxon_epos_ethercat_sdk
+[31m[1mCMake Error[0m at /home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/CMakeLists.txt:139 (add_dependencies):
+  Cannot add target-level dependencies to non-existent target "standalone".
+
+  The add_dependencies works for top-level logical targets created by the
+  add_executable, add_library, or add_custom_target commands.  If you want to
+  add file-level dependencies see the DEPENDS option of the add_custom_target
+  and add_custom_command commands.
+
+
+[31m[1mCMake Error[0m at /home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/CMakeLists.txt:153 (target_link_libraries):
+  Cannot specify link libraries for target "standalone" which is not built by
+  this project.
+
+
+make: *** [Makefile:688: cmake_check_build_system] Error 1

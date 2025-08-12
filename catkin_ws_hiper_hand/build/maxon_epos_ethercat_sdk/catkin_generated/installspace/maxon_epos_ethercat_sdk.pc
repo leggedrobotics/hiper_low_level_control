@@ -1,0 +1,8 @@
+prefix=/home/zrene/catkin_ws_hiper_hand/install
+
+Name: maxon_epos_ethercat_sdk
+Description: Description of maxon_epos_ethercat_sdk
+Version: 1.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmaxon_epos_ethercat_sdk
+Requires: message_logger ethercat_sdk_master

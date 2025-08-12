@@ -1,0 +1,10 @@
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In member function ‘[01m[Kvoid example::ExampleEcatHardwareInterface::interactiveControl()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:110:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor[m[K’ is not a class, namespace, or enumeration
+  110 |             [01;31m[Kmotor[m[K::Command command;
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:111:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand[m[K’ was not declared in this scope
+  111 |             [01;31m[Kcommand[m[K.setModeOfOperation(maxon::ModeOfOperationEnum::CyclicSynchronousPositionMode);
+      |             [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/hiper_hand.dir/build.make:63: CMakeFiles/hiper_hand.dir/src/hiper_hand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:876: CMakeFiles/hiper_hand.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

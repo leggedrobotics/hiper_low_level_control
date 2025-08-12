@@ -1,0 +1,49 @@
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/devel/.private/message_logger/include/message_logger/log/log_messages_backend_config.hpp:49[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_backend.hpp:46[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages.hpp:44[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/message_logger.hpp:43[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:35[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatMaster.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/include/ethercat_device_configurator/EthercatDeviceConfigurator.hpp:28[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:6[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In lambda function:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:139:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor1[m[K’ was not declared in this scope
+  139 |                         << [01;31m[Kmotor1[m[K->getName() << "': " << motor1->getReading().getDriveState());
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:79:74:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   79 |           melo_assert_stringstream << message_logger::log::colorFatal << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:138:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  138 |         [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] MCPA not in operationEnabled state: "
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:139:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor1[m[K’ was not declared in this scope
+  139 |                         << [01;31m[Kmotor1[m[K->getName() << "': " << motor1->getReading().getDriveState());
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:86:238:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   86 |           melo_stringstream << message_logger::log::getLogColor(level) << "[" << message_logger::log::getLogLevel(level)  << "] " << message_logger::log::parseMemberName(__PRETTY_FUNCTION__) << message_logger::log::getLogColor(level) << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                                                                                                                                                                                              [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:138:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  138 |         [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] MCPA not in operationEnabled state: "
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:141:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor2[m[K’ was not declared in this scope
+  141 |                         << [01;31m[Kmotor2[m[K->getName() << "': " << motor2->getReading().getDriveState());
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:79:74:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   79 |           melo_assert_stringstream << message_logger::log::colorFatal << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:140:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  140 |         [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] MCPF not in operationEnabled state: "
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:141:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor2[m[K’ was not declared in this scope
+  141 |                         << [01;31m[Kmotor2[m[K->getName() << "': " << motor2->getReading().getDriveState());
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:86:238:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   86 |           melo_stringstream << message_logger::log::getLogColor(level) << "[" << message_logger::log::getLogLevel(level)  << "] " << message_logger::log::parseMemberName(__PRETTY_FUNCTION__) << message_logger::log::getLogColor(level) << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                                                                                                                                                                                              [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:140:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  140 |         [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] MCPF not in operationEnabled state: "
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hiper_hand.dir/build.make:63: CMakeFiles/hiper_hand.dir/src/hiper_hand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:876: CMakeFiles/hiper_hand.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

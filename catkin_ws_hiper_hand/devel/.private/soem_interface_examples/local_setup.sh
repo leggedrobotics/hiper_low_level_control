@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+# generated from catkin/cmake/template/local_setup.sh.in
+
+# since this file is sourced either use the provided _CATKIN_SETUP_DIR
+# or fall back to the destination set at configure time
+: ${_CATKIN_SETUP_DIR:=/home/zrene/catkin_ws_hiper_hand/devel/.private/soem_interface_examples}
+CATKIN_SETUP_UTIL_ARGS="--extend --local"
+. "$_CATKIN_SETUP_DIR/setup.sh"
+unset CATKIN_SETUP_UTIL_ARGS

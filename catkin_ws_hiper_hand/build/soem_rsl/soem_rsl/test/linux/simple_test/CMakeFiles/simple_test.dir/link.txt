@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror   CMakeFiles/simple_test.dir/simple_test.c.o  -o /home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/soem_rsl/simple_test  /home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/libsoem_rsl.a -lpthread -lrt 

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "/home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/libsoem_rsl.a"
+  "/home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/libsoem_rsl.pdb"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/osal/linux/osal.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/nicdrv.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/oshw/linux/oshw.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatbase.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatcoe.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatconfig.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatdc.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercateoe.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatfoe.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatmain.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatprint.c.o"
+  "CMakeFiles/soem_rsl.dir/soem_rsl/soem_rsl/ethercatsoe.c.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/soem_rsl.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

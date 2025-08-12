@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror   CMakeFiles/slaveinfo.dir/slaveinfo.c.o  -o /home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/soem_rsl/slaveinfo  /home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/libsoem_rsl.a -lpthread -lrt 

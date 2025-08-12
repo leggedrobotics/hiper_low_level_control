@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zrene/catkin_ws_hiper_hand/devel/.private/maxon_epos_ethercat_sdk/setup.sh

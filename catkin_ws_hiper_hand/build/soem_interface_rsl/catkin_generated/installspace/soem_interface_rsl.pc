@@ -1,0 +1,8 @@
+prefix=/home/zrene/catkin_ws_hiper_hand/install
+
+Name: soem_interface_rsl
+Description: Description of soem_interface_rsl
+Version: 0.4.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsoem_interface_rsl
+Requires: message_logger soem_rsl

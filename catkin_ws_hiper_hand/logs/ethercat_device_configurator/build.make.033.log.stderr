@@ -1,0 +1,15 @@
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In lambda function:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:115:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope
+  115 |             if ([01;31m[Kcounter[m[K++ % 100 == 0) direction *= -1;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:115:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirection[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+  115 |             if (counter++ % 100 == 0) [01;31m[Kdirection[m[K *= -1;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+      |                                       [32m[Ksigaction[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:116:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirection[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+  116 |             command.setTargetPosition(reading.getActualPosition() + [01;31m[Kdirection[m[K * 10);
+      |                                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[Ksigaction[m[K
+make[2]: *** [CMakeFiles/hiper_hand.dir/build.make:63: CMakeFiles/hiper_hand.dir/src/hiper_hand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:876: CMakeFiles/hiper_hand.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

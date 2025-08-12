@@ -1,0 +1,251 @@
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:161:2:[m[K [01;31m[Kerror: [m[K#endif without #if
+  161 | #[01;31m[Kendif[m[K
+      |  [01;31m[K^~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In member function ‘[01m[Kbool example::ExampleEcatHardwareInterface::init(char*)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfigurator_[m[K’ was not declared in this scope
+   28 |     [01;31m[Kconfigurator_[m[K = std::make_shared<EthercatDeviceConfigurator>();
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ was not declared in this scope; did you mean ‘[01m[Kecat_master[m[K’?
+   31 |     [01;31m[KecatMaster_[m[K = configurator_->master();  // throws if more than one master.
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kecat_master[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaxons_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmaxon[m[K’?
+   35 |     [01;31m[Kmaxons_[m[K = configurator_->getSlavesOfType<maxon::Maxon>(EthercatDeviceConfigurator::EthercatSlaveType::Maxon);
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Kmaxon[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:35:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   35 |     maxons_ = configurator_->getSlavesOfType<maxon::Maxon[01;31m[K>[m[K(EthercatDeviceConfigurator::EthercatSlaveType::Maxon);
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:42:30:[m[K [01;31m[Kerror: [m[K‘[01m[KstartupAbortFlag_[m[K’ was not declared in this scope
+   42 |     if (ecatMaster_->startup([01;31m[KstartupAbortFlag_[m[K)) {
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[KworkerThread_[m[K’ was not declared in this scope
+   53 |     [01;31m[KworkerThread_[m[K = std::make_unique<std::thread>([this]() -> void {
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In lambda function:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:54:11:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ is not captured
+   54 |       if ([01;31m[KecatMaster_[m[K->setRealtimePriority(48)) {  // do not set above 48, otherwise starve kernel processes on which soem depends.
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:53:56:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   53 |     workerThread_ = std::make_unique<std::thread>([this[01;36m[K][m[K() -> void {
+      |                                                        [01;36m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:31:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>ecatMaster_[m[K’ declared here
+   31 |     [01;36m[KecatMaster_[m[K = configurator_->master();  // throws if more than one master.
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:61:11:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ is not captured
+   61 |       if ([01;31m[KecatMaster_[m[K->activate()) {
+      |           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:53:56:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   53 |     workerThread_ = std::make_unique<std::thread>([this[01;36m[K][m[K() -> void {
+      |                                                        [01;36m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:31:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>ecatMaster_[m[K’ declared here
+   31 |     [01;36m[KecatMaster_[m[K = configurator_->master();  // throws if more than one master.
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/devel/.private/message_logger/include/message_logger/log/log_messages_backend_config.hpp:49[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_backend.hpp:46[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages.hpp:44[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/message_logger.hpp:43[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:35[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatMaster.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/include/ethercat_device_configurator/EthercatDeviceConfigurator.hpp:28[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:6[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:62:87:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ is not captured
+   62 |         MELO_INFO_STREAM("[EthercatDeviceConfiguratorExample] Activated the Bus: " << [01;31m[KecatMaster_[m[K->getBusPtr()->getName())
+      |                                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:79:74:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   79 |           melo_assert_stringstream << message_logger::log::colorFatal << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:62:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_INFO_STREAM[m[K’
+   62 |         [01;36m[KMELO_INFO_STREAM[m[K("[EthercatDeviceConfiguratorExample] Activated the Bus: " << ecatMaster_->getBusPtr()->getName())
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:53:56:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   53 |     workerThread_ = std::make_unique<std::thread>([this[01;36m[K][m[K() -> void {
+      |                                                        [01;36m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:31:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>ecatMaster_[m[K’ declared here
+   31 |     [01;36m[KecatMaster_[m[K = configurator_->master();  // throws if more than one master.
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/devel/.private/message_logger/include/message_logger/log/log_messages_backend_config.hpp:49[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_backend.hpp:46[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages.hpp:44[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/message_logger.hpp:43[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:35[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatMaster.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/include/ethercat_device_configurator/EthercatDeviceConfigurator.hpp:28[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:6[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:62:87:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ is not captured
+   62 |         MELO_INFO_STREAM("[EthercatDeviceConfiguratorExample] Activated the Bus: " << [01;31m[KecatMaster_[m[K->getBusPtr()->getName())
+      |                                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:86:238:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   86 |           melo_stringstream << message_logger::log::getLogColor(level) << "[" << message_logger::log::getLogLevel(level)  << "] " << message_logger::log::parseMemberName(__PRETTY_FUNCTION__) << message_logger::log::getLogColor(level) << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                                                                                                                                                                                              [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:62:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_INFO_STREAM[m[K’
+   62 |         [01;36m[KMELO_INFO_STREAM[m[K("[EthercatDeviceConfiguratorExample] Activated the Bus: " << ecatMaster_->getBusPtr()->getName())
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:53:56:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   53 |     workerThread_ = std::make_unique<std::thread>([this[01;36m[K][m[K() -> void {
+      |                                                        [01;36m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:31:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>ecatMaster_[m[K’ declared here
+   31 |     [01;36m[KecatMaster_[m[K = configurator_->master();  // throws if more than one master.
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:65:15:[m[K [01;31m[Kerror: [m[K‘[01m[KabrtFlag_[m[K’ was not declared in this scope
+   65 |       while (![01;31m[KabrtFlag_[m[K) {
+      |               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ is not captured
+   66 |         [01;31m[KecatMaster_[m[K->update(ecat_master::UpdateMode::StandaloneEnforceStep);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:53:56:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   53 |     workerThread_ = std::make_unique<std::thread>([this[01;36m[K][m[K() -> void {
+      |                                                        [01;36m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:31:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>ecatMaster_[m[K’ declared here
+   31 |     [01;36m[KecatMaster_[m[K = configurator_->master();  // throws if more than one master.
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:71:7:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ is not captured
+   71 |       [01;31m[KecatMaster_[m[K->deactivate();
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:53:56:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   53 |     workerThread_ = std::make_unique<std::thread>([this[01;36m[K][m[K() -> void {
+      |                                                        [01;36m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:31:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>ecatMaster_[m[K’ declared here
+   31 |     [01;36m[KecatMaster_[m[K = configurator_->master();  // throws if more than one master.
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In member function ‘[01m[Kvoid example::ExampleEcatHardwareInterface::someUserStartInteraction()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:85:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaxons_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmaxon[m[K’?
+   85 |     for (auto& maxon : [01;31m[Kmaxons_[m[K) {
+      |                        [01;31m[K^~~~~~~[m[K
+      |                        [32m[Kmaxon[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In member function ‘[01m[Kvoid example::ExampleEcatHardwareInterface::cyclicUserInteraction()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[KuserCyclicThread_[m[K’ was not declared in this scope
+   93 |     [01;31m[KuserCyclicThread_[m[K = std::make_unique<std::thread>([this]() {
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In lambda function:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:94:14:[m[K [01;31m[Kerror: [m[K‘[01m[KuserInteraction_[m[K’ was not declared in this scope
+   94 |       while ([01;31m[KuserInteraction_[m[K) {
+      |              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:101:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmaxons_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmaxon[m[K’?
+  101 |       if ([01;31m[Kmaxons_[m[K.size() >= 2) {
+      |           [01;31m[K^~~~~~~[m[K
+      |           [32m[Kmaxon[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/devel/.private/message_logger/include/message_logger/log/log_messages_backend_config.hpp:49[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_backend.hpp:46[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages.hpp:44[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/message_logger.hpp:43[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/soem_interface/soem_interface_rsl/include/soem_interface_rsl/EthercatBusBase.hpp:35[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatDevice.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_sdk_master/ethercat_sdk_master/include/ethercat_sdk_master/EthercatMaster.hpp:25[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/include/ethercat_device_configurator/EthercatDeviceConfigurator.hpp:28[m[K,
+                 from [01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:6[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:139:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+  139 |                              << maxon[01;31m[K->[m[KgetName() << "': " << maxon->getReading().getDriveState());
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:79:74:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   79 |           melo_assert_stringstream << message_logger::log::colorFatal << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:138:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  138 |             [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] Maxon not in operationEnabled state: "
+      |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:139:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+  139 |                              << maxon->getName() << "': " << maxon[01;31m[K->[m[KgetReading().getDriveState());
+      |                                                                   [01;31m[K^~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:79:74:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   79 |           melo_assert_stringstream << message_logger::log::colorFatal << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:138:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  138 |             [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] Maxon not in operationEnabled state: "
+      |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:139:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+  139 |                              << maxon[01;31m[K->[m[KgetName() << "': " << maxon->getReading().getDriveState());
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:86:238:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   86 |           melo_stringstream << message_logger::log::getLogColor(level) << "[" << message_logger::log::getLogLevel(level)  << "] " << message_logger::log::parseMemberName(__PRETTY_FUNCTION__) << message_logger::log::getLogColor(level) << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                                                                                                                                                                                              [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:138:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  138 |             [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] Maxon not in operationEnabled state: "
+      |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:139:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+  139 |                              << maxon->getName() << "': " << maxon[01;31m[K->[m[KgetReading().getDriveState());
+      |                                                                   [01;31m[K^~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/message_logger/include/message_logger/log/log_messages_std.hpp:86:238:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMELO_LOG_STREAM[m[K’
+   86 |           melo_stringstream << message_logger::log::getLogColor(level) << "[" << message_logger::log::getLogLevel(level)  << "] " << message_logger::log::parseMemberName(__PRETTY_FUNCTION__) << message_logger::log::getLogColor(level) << [01;36m[Kmessage[m[K << message_logger::log::getResetColor(); \
+      |                                                                                                                                                                                                                                              [01;36m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:138:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KMELO_WARN_STREAM[m[K’
+  138 |             [01;36m[KMELO_WARN_STREAM[m[K("[EthercatDeviceConfiguratorExample] Maxon not in operationEnabled state: "
+      |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:145:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor1[m[K’ was not declared in this scope
+  145 |     auto reading1 = [01;31m[Kmotor1[m[K->getReading();
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:146:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd1[m[K’ was not declared in this scope
+  146 |     [01;31m[Kcmd1[m[K.setTargetPosition(reading1.getActualPosition() + 10);  // e.g., forward
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In member function ‘[01m[Kvoid example::ExampleEcatHardwareInterface::cyclicUserInteraction()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:148:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kif[m[K’
+  148 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K)[m[K
+  149 | 
+  150 |   [32m[Kif[m[K (motor2->lastPdoStateChangeSuccessful() &&
+      |   [32m[K~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:93:54:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   93 |     userCyclicThread_ = std::make_unique<std::thread>[01;36m[K([m[K[this]() {
+      |                                                      [01;36m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K At global scope:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:167:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+  167 |     }[01;31m[K)[m[K;
+      |      [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In function ‘[01m[Kvoid shutdown()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:172:5:[m[K [01;31m[Kerror: [m[K‘[01m[KuserInteraction_[m[K’ was not declared in this scope
+  172 |     [01;31m[KuserInteraction_[m[K = false;
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:173:9:[m[K [01;31m[Kerror: [m[K‘[01m[KuserCyclicThread_[m[K’ was not declared in this scope
+  173 |     if ([01;31m[KuserCyclicThread_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:181:9:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ was not declared in this scope; did you mean ‘[01m[Kecat_master[m[K’?
+  181 |     if ([01;31m[KecatMaster_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kecat_master[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:187:5:[m[K [01;31m[Kerror: [m[K‘[01m[KabrtFlag_[m[K’ was not declared in this scope
+  187 |     [01;31m[KabrtFlag_[m[K = true;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:188:9:[m[K [01;31m[Kerror: [m[K‘[01m[KworkerThread_[m[K’ was not declared in this scope
+  188 |     if ([01;31m[KworkerThread_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:195:9:[m[K [01;31m[Kerror: [m[K‘[01m[KecatMaster_[m[K’ was not declared in this scope; did you mean ‘[01m[Kecat_master[m[K’?
+  195 |     if ([01;31m[KecatMaster_[m[K) {
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kecat_master[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In function ‘[01m[Kvoid abortStartup()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:201:25:[m[K [01;31m[Kerror: [m[K‘[01m[KstartupAbortFlag_[m[K’ was not declared in this scope
+  201 |   void abortStartup() { [01;31m[KstartupAbortFlag_[m[K = true; }
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K At global scope:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:203:32:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+  203 |   ~ExampleEcatHardwareInterface[01;31m[K([m[K) {
+      |                                [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:209:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+  209 |  [01;31m[Kprivate[m[K:
+      |  [01;31m[K^~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:227:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  227 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:248:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  248 | [01;31m[K}[m[K;  // namespace example
+      | [01;31m[K^[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:263:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample::SimpleSignalHandler[m[K’ has not been declared
+  263 |   example::[01;31m[KSimpleSignalHandler[m[K::addSigIntCallback([&shutdownFlag, &exampleEcatHardwareInterface]([[maybe_unused]] int signal) {
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In lambda function:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:264:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass example::ExampleEcatHardwareInterface[m[K’ has no member named ‘[01m[KabortStartup[m[K’
+  264 |     exampleEcatHardwareInterface.[01;31m[KabortStartup[m[K();
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:268:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample::SimpleSignalHandler[m[K’ has not been declared
+  268 |   example::[01;31m[KSimpleSignalHandler[m[K::registerSignalHandler();
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:283:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass example::ExampleEcatHardwareInterface[m[K’ has no member named ‘[01m[Kshutdown[m[K’
+  283 |   exampleEcatHardwareInterface.[01;31m[Kshutdown[m[K();
+      |                                [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hiper_hand.dir/build.make:63: CMakeFiles/hiper_hand.dir/src/hiper_hand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:876: CMakeFiles/hiper_hand.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

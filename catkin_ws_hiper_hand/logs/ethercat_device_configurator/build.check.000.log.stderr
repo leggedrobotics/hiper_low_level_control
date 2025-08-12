@@ -1,0 +1,8 @@
+Found EtherCAT device sdk: anydrive_rsl
+Found EtherCAT device sdk: rokubimini_rsl_ethercat_slave
+Found EtherCAT device sdk: maxon_epos_ethercat_sdk
+[31m[1mCMake Error[0m at /home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/CMakeLists.txt:175 (dd_executable):
+  Unknown CMake command "dd_executable".
+
+
+make: *** [Makefile:688: cmake_check_build_system] Error 1

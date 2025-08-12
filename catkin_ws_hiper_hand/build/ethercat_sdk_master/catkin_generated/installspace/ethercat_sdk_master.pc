@@ -1,0 +1,8 @@
+prefix=/home/zrene/catkin_ws_hiper_hand/install
+
+Name: ethercat_sdk_master
+Description: Description of ethercat_sdk_master
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lethercat_sdk_master
+Requires: soem_interface_rsl message_logger

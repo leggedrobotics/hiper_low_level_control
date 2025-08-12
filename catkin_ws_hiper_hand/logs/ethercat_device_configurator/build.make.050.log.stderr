@@ -1,0 +1,8 @@
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:[m[K In member function ‘[01m[Kvoid example::ExampleEcatHardwareInterface::interactiveControl()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/src/hiper_hand.cpp:116:18:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[KMAX_VEL[m[K’ [[01;31m[K-Werror=unused-variable[m[K]
+  116 |     const double [01;31m[KMAX_VEL[m[K = 10.0;
+      |                  [01;31m[K^~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/hiper_hand.dir/build.make:63: CMakeFiles/hiper_hand.dir/src/hiper_hand.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:876: CMakeFiles/hiper_hand.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

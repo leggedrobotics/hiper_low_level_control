@@ -1,0 +1,8 @@
+prefix=/home/zrene/catkin_ws_hiper_hand/install
+
+Name: anynode_standalone_example
+Description: Description of anynode_standalone_example
+Version: 0.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lanynode_standalone_example
+Requires: any_node ethercat_device_configurator

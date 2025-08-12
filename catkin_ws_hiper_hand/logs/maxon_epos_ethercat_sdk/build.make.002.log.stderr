@@ -1,0 +1,29 @@
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:[m[K In member function ‘[01m[Kbool maxon::Maxon::putIntoOperation()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:71:20:[m[K [01;31m[Kerror: [m[K‘[01m[KEC_STATE_OPERATIONAL[m[K’ was not declared in this scope
+   71 |     bus_->setState([01;31m[KEC_STATE_OPERATIONAL[m[K, getAddress());
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:[m[K In member function ‘[01m[Kvirtual bool maxon::Maxon::startup()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:81:33:[m[K [01;31m[Kerror: [m[K‘[01m[KEC_STATE_PRE_OP[m[K’ was not declared in this scope
+   81 |   success &= bus_->waitForState([01;31m[KEC_STATE_PRE_OP[m[K, address_, 50, 0.05);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:[m[K In member function ‘[01m[Kvirtual void maxon::Maxon::shutdown()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Maxon.cpp:140:41:[m[K [01;31m[Kerror: [m[K‘[01m[KEC_STATE_INIT[m[K’ was not declared in this scope
+  140 | void Maxon::shutdown() { bus_->setState([01;31m[KEC_STATE_INIT[m[K, address_); }
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp:36[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:[m[K In member function ‘[01m[Kbool maxon::Maxon::putIntoOperation()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:71:20:[m[K [01;31m[Kerror: [m[K‘[01m[KEC_STATE_OPERATIONAL[m[K’ was not declared in this scope
+   71 |     bus_->setState([01;31m[KEC_STATE_OPERATIONAL[m[K, getAddress());
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/src/maxon_epos_ethercat_sdk/Diagnostics.cpp:33[m[K:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:[m[K In member function ‘[01m[Kbool maxon::Maxon::putIntoOperation()[m[K’:
+[01m[K/home/zrene/catkin_ws_hiper_hand/src/maxon_epos_ethercat_sdk/include/maxon_epos_ethercat_sdk/Maxon.hpp:71:20:[m[K [01;31m[Kerror: [m[K‘[01m[KEC_STATE_OPERATIONAL[m[K’ was not declared in this scope
+   71 |     bus_->setState([01;31m[KEC_STATE_OPERATIONAL[m[K, getAddress());
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make:128: CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Diagnostics.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make:154: CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/Maxon.cpp.o] Error 1
+make[2]: *** [CMakeFiles/maxon_epos_ethercat_sdk.dir/build.make:102: CMakeFiles/maxon_epos_ethercat_sdk.dir/src/maxon_epos_ethercat_sdk/ConfigureParameters.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/maxon_epos_ethercat_sdk.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

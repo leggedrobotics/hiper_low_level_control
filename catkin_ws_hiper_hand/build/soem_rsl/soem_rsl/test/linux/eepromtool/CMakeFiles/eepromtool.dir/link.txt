@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror   CMakeFiles/eepromtool.dir/eepromtool.c.o  -o /home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/soem_rsl/eepromtool  /home/zrene/catkin_ws_hiper_hand/devel/.private/soem_rsl/lib/libsoem_rsl.a -lpthread -lrt 

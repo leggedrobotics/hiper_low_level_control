@@ -1,0 +1,8 @@
+prefix=/home/zrene/catkin_ws_hiper_hand/install
+
+Name: ethercat_device_configurator
+Description: Description of ethercat_device_configurator
+Version: 0.6.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lethercat_device_configurator
+Requires: anydrive_rsl rokubimini_rsl_ethercat_slave maxon_epos_ethercat_sdk param_io ethercat_sdk_master

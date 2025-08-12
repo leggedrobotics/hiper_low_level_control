@@ -1,0 +1,18 @@
+Found EtherCAT device sdk: anydrive_rsl
+Found EtherCAT device sdk: rokubimini_rsl_ethercat_slave
+Found EtherCAT device sdk: maxon_epos_ethercat_sdk
+[31m[1mCMake Error[0m at /home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/CMakeLists.txt:175 (add_executable):
+  Cannot find source file:
+
+    src/generate_config.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/zrene/catkin_ws_hiper_hand/src/ethercat_device_configurator/ethercat_device_configurator/CMakeLists.txt:175 (add_executable):
+  No SOURCES given to target: generate_config
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:688: cmake_check_build_system] Error 1

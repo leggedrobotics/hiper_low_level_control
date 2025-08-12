@@ -1,0 +1,16 @@
+/usr/bin/ld: CMakeFiles/hiper_hand.dir/src/hiper_hand.cpp.o: in function `example::ExampleEcatHardwareInterface::interactiveControl()':
+hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x47): undefined reference to `initscr'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x4c): undefined reference to `cbreak'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x51): undefined reference to `noecho'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x58): undefined reference to `stdscr'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x65): undefined reference to `nodelay'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x6c): undefined reference to `stdscr'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x79): undefined reference to `keypad'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x87): undefined reference to `stdscr'
+/usr/bin/ld: hiper_hand.cpp:(.text._ZN7example28ExampleEcatHardwareInterface18interactiveControlEv[_ZN7example28ExampleEcatHardwareInterface18interactiveControlEv]+0x8f): undefined reference to `wgetch'
+/usr/bin/ld: CMakeFiles/hiper_hand.dir/src/hiper_hand.cpp.o: in function `example::ExampleEcatHardwareInterface::cyclicUserInteraction()::{lambda()#1}::operator()() const':
+hiper_hand.cpp:(.text._ZZN7example28ExampleEcatHardwareInterface21cyclicUserInteractionEvENKUlvE_clEv[_ZZN7example28ExampleEcatHardwareInterface21cyclicUserInteractionEvENKUlvE_clEv]+0x6e): undefined reference to `endwin'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/hiper_hand.dir/build.make:162: /home/zrene/catkin_ws_hiper_hand/devel/.private/ethercat_device_configurator/lib/ethercat_device_configurator/hiper_hand] Error 1
+make[1]: *** [CMakeFiles/Makefile2:876: CMakeFiles/hiper_hand.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

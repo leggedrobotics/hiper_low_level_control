@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zrene/catkin_ws_hiper_hand/devel/.private/soem_interface_examples/setup.sh
